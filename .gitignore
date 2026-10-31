@@ -1,0 +1,26 @@
+# 报告输出（含运行痕迹，不入库）
+reports/
+
+# 本地基线库（运行时由 bank build 生成；示例见 bank/bank.example.json）
+bank/bank.json
+
+# Python 运行时缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地私有文件（密钥、个人配置等）
+*.local.*
+*.local
+
+# macOS
+.DS_Store
+
+# 本地虚拟环境（若使用者自建）
+.venv/
+venv/
+
+# Claude Code 开发过程产物（含本机路径，不入开源仓）
+cc_task.md
+cc_run.log
+.pytest_cache/
